@@ -13,7 +13,7 @@ import com.bot4s.telegram.models.ChatId
   */
 case class SetChatAdministratorCustomTitle(
                             chatId             : ChatId,
-                            userId             : Int,
+                            userId             : Long,
                             customTitle        : String
                             ) extends JsonRequest[Boolean]
 
